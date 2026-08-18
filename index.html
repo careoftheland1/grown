@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#209c4f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Grown on the Land — community-grown greens, picked up in the alley.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="grown on the land">
+    <meta property="og:description" content="Grown on the Land — community-grown greens, picked up in the alley.">
+    <meta property="og:url" content="https://grown.onthe.land/">
+    <meta property="og:image" content="https://grown.onthe.land/images/rainbow-chard.jpg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="500">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="grown on the land">
+    <meta name="twitter:description" content="Grown on the Land — community-grown greens, picked up in the alley.">
+    <meta name="twitter:image" content="https://grown.onthe.land/images/rainbow-chard.jpg">
+    <title>grown on the land</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="index-page">
+    <header class="site-header">
+      <a class="site-title" href="index.html">grown on the land</a>
+      <nav aria-label="Primary"><a href="index.html">grown on the land</a><a href="about.html">community centered agriculture</a></nav>
+      <button class="cart-toggle" type="button" aria-expanded="false" aria-controls="cart-drawer">cart <span data-cart-count>0</span></button>
+    </header>
+    <main><section class="animal-index" id="animal-index" aria-label="Beings" aria-live="polite"></section></main>
+    <p class="cart-hint">( click an item to add it to your cart )</p>
+    <nav class="filter-nav" aria-label="Filter beings by taxon">
+      <div class="filter-scroll">
+        <button type="button" data-filter="All" aria-pressed="true">all</button>
+        <button type="button" data-filter="Chicories" aria-pressed="false">chicories</button>
+        <button type="button" data-filter="Brassicas" aria-pressed="false">brassicas</button>
+        <button type="button" data-filter="Kales" aria-pressed="false">kales</button>
+        <button type="button" data-filter="Chards" aria-pressed="false">chards</button>
+        <button type="button" data-filter="Wild" aria-pressed="false">wild</button>
+      </div>
+    </nav>
+    <div class="landing" id="landing" role="dialog" aria-label="A whole food desert and not a trader in sight. We want nutrition nearby. Click anywhere to enter." tabindex="-1">
+      <div class="landing-names" id="landing-names" aria-hidden="true"></div>
+      <p class="landing-headline landing-headline-desktop">A WHOLE FOOD<br>DESERT AND NOT<br>A TRADER IN SIGHT<br><span class="landing-headline-small">WE WANT</span> &ldquo;NUTRITION NEARBY&rdquo;</p>
+      <p class="landing-headline landing-headline-mobile">A <span class="landing-italic">WHOLE</span><br><span class="landing-italic">FOOD</span><br>DESERT<br>AND NOT<br><span class="landing-underline">A TRADER</span><br>IN SIGHT<br>&ldquo;NUTRITION<br>NEARBY&rdquo;</p>
+      <span>click anywhere</span>
+    </div>
+    <button class="landing-dismiss" id="landing-dismiss" type="button" aria-label="Enter Grown on the Land"></button>
+    <div id="cart-root"></div>
+    <script src="products.js"></script><script src="cart.js"></script><script src="script.js"></script>
+  </body>
+</html>

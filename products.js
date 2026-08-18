@@ -1,0 +1,28 @@
+// Replace image paths with photographed hats when they are ready.
+const products = [
+  { slug: 'endive', name: 'Endive', taxon: 'Chicories', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'escarole', name: 'Escarole', taxon: 'Chicories', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'radicchio', name: 'Radicchio', taxon: 'Chicories', image: 'images/radicchio.jpg', price: 3 },
+  { slug: 'castelfranco', name: 'Castelfranco', taxon: 'Chicories', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'treviso', name: 'Treviso', taxon: 'Chicories', image: 'images/treviso.jpg', price: 3 },
+  { slug: 'spigarello', name: 'Spigarello', taxon: 'Brassicas', image: 'images/spigarello.jpg', price: 3 },
+  { slug: 'mizuna', name: 'Mizuna', taxon: 'Brassicas', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'tatsoi', name: 'Tatsoi', taxon: 'Brassicas', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'komatsuna', name: 'Komatsuna', taxon: 'Brassicas', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'red-mustard', name: 'Red mustard', taxon: 'Brassicas', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'green-mustard', name: 'Green mustard', taxon: 'Brassicas', image: 'images/green-mustard.jpg', price: 3 },
+  { slug: 'russian-kale', name: 'Russian kale', taxon: 'Kales', image: 'images/russian-kale.jpg', price: 3 },
+  { slug: 'lacinato-kale', name: 'Lacinato kale', taxon: 'Kales', image: 'images/lacinato-kale.jpg', price: 3 },
+  { slug: 'red-russian-kale', name: 'Red Russian kale', taxon: 'Kales', image: 'images/red-russian-kale.jpg', price: 3 },
+  { slug: 'swiss-chard', name: 'Swiss chard', taxon: 'Chards', image: 'images/swiss-chard.jpg', price: 3 },
+  { slug: 'rainbow-chard', name: 'Rainbow chard', taxon: 'Chards', image: 'images/rainbow-chard.jpg', price: 3 },
+  { slug: 'arugula', name: 'Arugula', taxon: 'Brassicas', image: 'images/arugula.jpg', price: 3 },
+  { slug: 'dandelion-greens', name: 'Dandelion greens', taxon: 'Wild', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'frisee', name: 'Frisée', taxon: 'Chicories', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'mache', name: 'Mâche', taxon: 'Wild', image: 'images/mache.jpg', price: 3 },
+  { slug: 'collards', name: 'Collards', taxon: 'Kales', image: 'images/collards.jpg', price: 3 },
+  { slug: 'purslane', name: 'Purslane', taxon: 'Wild', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'chicory', name: 'Chicory', taxon: 'Chicories', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'amaranth-greens', name: 'Amaranth greens', taxon: 'Wild', image: 'images/specimen-placeholder.svg', price: 3 },
+  { slug: 'lagos-spinach', name: 'Lagos spinach', taxon: 'Wild', image: 'images/specimen-placeholder.svg', price: 3 }
+];
